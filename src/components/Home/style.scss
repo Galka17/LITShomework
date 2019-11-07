@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap");
+
+.maindiv {
+  height: calc(100vh - 60px);
+  display: flex;
+  flex-direction: column;
+  // background-image: url(https://wallpapersite.com/images/pages/pic_w/3485.jpg);
+  background-image:url(https://images.pexels.com/photos/248174/pexels-photo-248174.jpeg?cs=srgb&dl=arizona-clouds-dawn-248174.jpg&fm=jpg);
+  background-size: 100%;
+
+  .body {
+    
+
+    h1 {
+      color: rgb(248, 246, 246);
+      text-align: center;
+      font-size: 100px;
+      margin-top: 80px;
+      font-family: "Libre Baskerville", serif;
+    }
+    p {
+      color: rgb(248, 246, 246);
+      text-align: center;
+      font-size: 40px;
+      margin-top: 300px;
+      font-family: "Libre Baskerville", serif;
+    
+    }
+  }
+
+
+  .footer {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 40px;
+    color: #ffffff;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+  }
+}
