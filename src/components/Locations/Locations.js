@@ -6,13 +6,13 @@ import MOCK_DATA from "../MOCK_DATA";
 export default function Locations() {
     useRouteMatch();
     return (
-        <div>
+        <div className="locationswrapper">
             <h1>{MOCK_DATA.LOCATIONS.header}</h1>
 
-            <ul>
+            <ul className="locationslist">
                 {LocationsArr.map(item => (
                     <li>
-                        <Link to={`/Locations/${item.id}`}>
+                        <Link to={`/Locations/${item.id}`} type="button" className="button">
                             {item.title}
                         </Link>
                         

@@ -1,0 +1,17 @@
+.wrapper {
+    height: calc(100vh - 60px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(https://i.pinimg.com/originals/39/df/42/39df4272537ed38c150dba5a4967e24d.jpg);
+  .form {
+      input {
+          border:none;
+          outline: none;
+          background: none;
+          margin: 5px;
+          border-bottom: 2px solid black;
+      }
+  }  
+}

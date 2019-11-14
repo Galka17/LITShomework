@@ -7,10 +7,10 @@ export default function Home() {
       <body className="body">
         <h1>{MOCK_DATA.HOME.header}</h1>
         <p>{MOCK_DATA.HOME.paragraph} </p>
-
       </body>
+      
       <footer className="footer">
-        <div>footer here</div>
+        <div>Galka Tashchuk</div>
       </footer>
     </div>
   );

@@ -1,6 +1,6 @@
 import React from 'react';
 import About from './components/About/About';
-import ContactUs from "./components/ContactUs/ContactUs";
+import Login from "./components/Login/Login";
 import Home from './components/Home/Home';
 import Locations from './components/Locations/Locations';
 import {BrowserRouter as Router, Switch, Link, Route} from "react-router-dom";
@@ -15,7 +15,7 @@ export default function App() {
             <Link className="navlink" to="/">Home </Link>
             <Link className="navlink" to="/locations">Locations </Link>
             <Link className="navlink" to="/about">About </Link>
-            <Link className="navlink" to="/contactus" >Login</Link>
+            <Link className="navlink" to="/Login" >Login</Link>
           </ul>
 
           <Switch>
@@ -28,8 +28,8 @@ export default function App() {
             <Route path="/About">
              <About /> 
             </Route>
-            <Route path="/contactus">
-            <ContactUs />
+            <Route path="/Login">
+            <Login />
             </Route>
             <Route path="/">
               <Home />
