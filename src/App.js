@@ -4,7 +4,7 @@ import Login from "./components/Login/Login";
 import Home from './components/Home/Home';
 import Locations from './components/Locations/Locations';
 import {BrowserRouter as Router, Switch, Link, Route} from "react-router-dom";
-import LocationsInfo from './components/Locations/LocationsInfo';
+import LocationsInfo from './components/LocationsInfo/LocationsInfo';
 
 export default function App() {
   return (

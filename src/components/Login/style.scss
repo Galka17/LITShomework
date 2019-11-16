@@ -1,17 +1,85 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
 .wrapper {
-    height: calc(100vh - 60px);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-image: url(https://i.pinimg.com/originals/39/df/42/39df4272537ed38c150dba5a4967e24d.jpg);
-  .form {
-      input {
-          border:none;
-          outline: none;
-          background: none;
-          margin: 5px;
-          border-bottom: 2px solid black;
+  height: calc(100vh - 60px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-image: url(https://i.pinimg.com/originals/39/df/42/39df4272537ed38c150dba5a4967e24d.jpg);
+  .formwrapper {
+    background-color: rgba(255, 255, 255, 0.8);
+    height: 500px;
+    width: 350px;
+    box-shadow: 0 0 15px rgb(0, 0, 0);
+    h1 {
+      text-align: center;
+      margin-top: 20px;
+    }
+    .form {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      margin-top: 100px;
+      .test {
+        border-bottom: 2px solid black;
       }
-  }  
+      input {
+        border: none;
+        outline: none;
+        background: none;
+        width: 250px;
+        height: 35px;
+        margin-left: 5px;
+        font-size: 17px;
+      }
+      button {
+        margin: 50px 0;
+        align-self: center;
+        width: 10rem;
+        border: 2px solid black;
+        height: 45px;
+        background: white;
+        color: black;
+        
+      }
+      button:hover{
+        box-shadow: 0 0 7px black;
+    }
+    }
+    .socialicons {
+      display: flex;
+      justify-content: center;
+      margin-top: 60px;
+      a {
+        color: white;
+        padding: 10px 15px;
+        margin: 5px;
+      }
+      .facebook {
+        background-color: #3b5998;
+        border-radius: 8px;
+      }
+
+      .instagram {
+        background-color: #3f729b;
+        border-radius: 8px;
+      }
+      .telegram {
+        background-color: #249bd7;
+        border-radius: 8px;
+      }
+      .mail {
+        background-color: #dd4b39;
+        border-radius: 8px;
+      }
+      .git {
+        background-color: #191919;
+        border-radius: 8px;
+      }
+      :hover {
+        transform: scale(1.3);
+        transition-duration: 0.5s;
+      }
+    }
+  }
 }

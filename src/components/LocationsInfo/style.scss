@@ -1,0 +1,36 @@
+.locationsinfo {
+  height: calc(100vh - 60px);
+  // background-color: rgb(165, 123, 88);
+  background-size: 100%;
+  background: linear-gradient(50deg, #febb2c, #22c1c3);
+
+  h1 {
+    color: rgb(245, 243, 241);
+    text-align: center;
+    font-size: 5rem;
+    text-shadow: 5px 5px 7px black;
+  }
+
+  .infowrapper {
+    margin: 10px 80px;
+    .img {
+      display: flex;
+     justify-content: center;
+     flex-direction: row;
+     img {
+      width: 600px;
+      height: 400px;
+     margin: 5px 10px;
+     
+
+    }
+    }
+    
+    p {
+      color: rgb(243, 236, 232);
+      text-align: center;
+      font-size: 3rem;
+
+    }
+  }
+}
