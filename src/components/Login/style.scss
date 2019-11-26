@@ -1,4 +1,5 @@
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+@import "../Assets/vars.scss";
 .wrapper {
   height: calc(100vh - 60px);
   display: flex;
@@ -14,6 +15,7 @@
     h1 {
       text-align: center;
       margin-top: 20px;
+      font-family: $fonts;
     }
     .form {
       display: flex;

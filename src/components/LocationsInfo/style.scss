@@ -2,7 +2,7 @@
   height: calc(100vh - 60px);
   // background-color: rgb(165, 123, 88);
   background-size: 100%;
-  background: linear-gradient(50deg, #febb2c, #22c1c3);
+  background: linear-gradient(50deg, #020024, #b9881e);
 
   h1 {
     color: rgb(245, 243, 241);
@@ -15,22 +15,23 @@
     margin: 10px 80px;
     .img {
       display: flex;
-     justify-content: center;
-     flex-direction: row;
-     img {
-      width: 600px;
-      height: 400px;
-     margin: 5px 10px;
-     
+      justify-content: center;
+      flex-direction: row;
 
+      img {
+        width: 600px;
+        height: 400px;
+        margin: 5px 17px;
+        border-radius: 25px;
+        box-shadow: 10px 10px 15px black;
+      }
     }
-    }
-    
+
     p {
       color: rgb(243, 236, 232);
       text-align: center;
       font-size: 3rem;
-
+      text-shadow: 3px 3px 3px black;
     }
   }
 }
